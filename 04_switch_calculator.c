@@ -1,10 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int a = 20;
-    int b = 10;
-    char op = '+';
-
+    int a,b,Result;
+    char op;
+    
+    printf("ENTER ANY NUMBER : ");
+    scanf("%d", &a);
+    printf("ENTER ANY OPERATOR : ") ;
+    scanf(" %c", &op);
+    printf("ENTER ANY NUMBER : ");
+    scanf("%d", &b);
+    
     switch (op) {
         case '+':
             printf("Result = %d", a + b);
@@ -28,3 +34,4 @@ int main() {
 
     return 0;
 }
+
